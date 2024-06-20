@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Recipe Cards</title>
+  </head>
+  <body>
+    <!--buttons-->
+    <button class="show-modal">Beans on Toast</button>
+    <button class="show-modal">Cheese on Toast</button>
+    <button class="show-modal">Toast</button>
+    <!--modal window-->
+    <div class="beans-modal hidden">
+      <!--x in corner-->
+      <button class="close-modal">&times;</button>
+      <h1>How to make Beans on Toast</h1>
+
+      <ol>
+        <li>Open can of beans, cook in a pan or microwave</li>
+        <li>Toast 1 or 2 slices of bread</li>
+        <li>Add beans on top of now toasted bread</li>
+      </ol>
+      <h4>Optional:</h4>
+      <ul>
+        <li>add grated cheese</li>
+      </ul>
+    </div>
+
+    <div class="chesse-modal hidden">
+      <button class="close-modal">&times;</button>
+      <h1>How to make Cheese on Toast</h1>
+      <ol>
+        <li>Grate cheese</li>
+        <li>Toast one side of the bread slice/slices</li>
+        <li>Add cheese to untoasted side</li>
+        <li>Wait until bubbly</li>
+      </ol>
+    </div>
+
+    <div class="toast-modal hidden">
+      <button class="close-modal">&times;</button>
+      <h1>How to make Toast</h1>
+      <ul>
+        <li>Pick a 1 or 2 slices of nice bread</li>
+        <li>Place in toaster</li>
+        <li>Adjust desired time setting</li>
+        <li>Wait</li>
+        <li>Remove toast from toaster</li>
+      </ul>
+      <h4>Optional:</h4>
+      <ul>
+        <li>add grated cheese</li>
+      </ul>
+    </div>
+    <!--dark park that shadows bg-->
+    <div class="overlay hidden"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
